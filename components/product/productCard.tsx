@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader } from "../ui/card";
 import Image from "next/image";
+import { Product } from "@/types";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const ProductCard = ({ product }: { product: any }) => {
+const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Card>
       <CardHeader>
